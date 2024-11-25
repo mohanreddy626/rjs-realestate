@@ -1,0 +1,52 @@
+nav{
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    font-size: 16px; 
+}
+div ul li{
+    margin-right: 25px;
+}
+.navbar-nav{
+   justify-content: center;
+   color: aliceblue;
+ }
+
+ .login a{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+ }
+
+ .bg-image{
+    background-image: url("./components/HomeSlider1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; 
+ }
+
+ .bg-overlay {
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: #fff;
+    height: 100%;
+  
+  }
+
+  .card .card-img-top{
+   height: 275px;
+   /* width: 300px; */
+   align-self: center;
+  }
+
+  .card{
+   /* margin-right: 20px; */
+   border: 5px solid #007bff;
+   border-radius: 5px;
+  }
+  
+  .footer{
+   height: 65px;
+   background-color: rgb(99, 64, 64);
+   color: white;
+   align-content: center;
+  }
